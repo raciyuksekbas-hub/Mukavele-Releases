@@ -14,8 +14,8 @@ Bu depo, uygulamanın **dağıtım paketlerini** barındırır. Uygulamanın kay
 
 | Platform | Durum | Paket | İndirme |
 |---|---|---|---|
-| macOS 12 (Monterey) ve üzeri — Apple Silicon (arm64) | Kararlı sürüm | DMG | [v1.3.2](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v.1.3.2) |
-| Windows 10 / 11 — x64 | Beta | Setup.exe veya portable ZIP | [v1.3.2-windows-beta.4](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.3.2-windows-beta.4) |
+| macOS 12 (Monterey) ve üzeri — Apple Silicon (arm64) | Kararlı sürüm | `Mukavele-1.4.0-arm64.dmg` | [v1.4.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) |
+| Windows 10 / 11 — x64 | Kararlı sürüm | `Mukavele-1.4.0-windows-x64-setup.exe` (kurulum) veya `-portable.zip` | [v1.4.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) |
 
 macOS paketi yalnızca **Apple Silicon (arm64)** işlemcili Mac bilgisayarlar için üretilmiştir. Intel işlemcili Mac'ler için ayrı bir paket bulunmamaktadır ve paket "universal" değildir.
 
@@ -114,8 +114,8 @@ Kanunen sınırlandırılması veya kaldırılması mümkün olmayan sorumlulukl
 
 ## macOS Kurulumu
 
-1. [v1.3.2 release sayfasını](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v.1.3.2) açın.
-2. **Assets** altındaki `Mukavele-1.3.2-arm64.dmg` dosyasını indirin.
+1. [v1.4.0 release sayfasını](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) açın.
+2. **Assets** altındaki `Mukavele-1.4.0-arm64.dmg` dosyasını indirin.
 3. DMG dosyasını açın.
 4. Mukavele uygulamasını **Applications (Uygulamalar)** klasörüne sürükleyin.
 5. Uygulamayı Applications klasöründen çalıştırın.
@@ -138,11 +138,9 @@ Sonraki çalıştırmalarda uygulama doğrudan açılır.
 
 ## Windows Kurulumu
 
-Windows sürümü beta aşamasındadır.
-
 ### Setup ile kurulum (önerilen)
 
-1. [Windows Beta 4 release sayfasından](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.3.2-windows-beta.4) `Mukavele-1.3.2-windows-beta.4-x64-setup.exe` dosyasını indirin.
+1. [v1.4.0 release sayfasından](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) `Mukavele-1.4.0-windows-x64-setup.exe` dosyasını indirin.
 2. Dosyayı çalıştırın.
 3. Windows SmartScreen uyarısı çıkarsa **"Daha fazla bilgi"** seçeneğine basın.
 4. **"Yine de çalıştır"** seçeneğiyle devam edin.
@@ -153,7 +151,7 @@ Kurulum yönetici yetkisi gerektirmez; uygulama yalnızca ilgili kullanıcı hes
 
 ### Portable kullanım (alternatif)
 
-1. `Mukavele-1.3.2-windows-beta.4-x64-portable.zip` dosyasını indirin.
+1. `Mukavele-1.4.0-windows-x64-portable.zip` dosyasını indirin.
 2. ZIP dosyasını kalıcı bir klasöre çıkarın.
 3. Klasör içindeki `Mukavele.exe` dosyasını çalıştırın.
 4. Uygulamayı ZIP dosyasının içinden doğrudan çalıştırmayın.
@@ -166,14 +164,14 @@ Windows paketi **dijital olarak imzalanmamıştır**. SmartScreen "bilinmeyen ya
 
 Üretilen sözleşme taslaklarının varsayılan kayıt konumu sürüme göre değişir:
 
-| Sürüm | Varsayılan klasör |
+| Platform | Varsayılan klasör |
 |---|---|
-| Windows Beta 4 | `Belgeler\Mukavele Sözleşme Taslakları` |
-| macOS v1.3.2 | `~/Documents/Yüksekbaş Legal/Üretilen Belgeler` |
+| Windows | `Belgeler\Mukavele Sözleşme Taslakları` |
+| macOS | `~/Documents/Mukavele Sözleşme Taslakları` |
 
 Windows'ta "Belgeler" klasörü OneDrive'a yönlendirilmişse taslaklar yönlendirilen konuma yazılır.
 
-Genel dağıtıma uygun klasör adı (`Mukavele Sözleşme Taslakları`) Windows Beta 2 sürümüyle birlikte kullanılmaya başlanmıştır. Daha önceki sürümlerle oluşturulmuş belgeler eski klasörlerinde kalır; taşınmaz veya silinmez ve uygulama içinden açılmaya devam edebilir.
+1.4.0 öncesi sürümlerle oluşturulmuş belgeler eski klasörlerinde kalır; taşınmaz veya silinmez ve uygulama içinden açılmaya devam edebilir.
 
 ---
 
@@ -217,7 +215,7 @@ Hata bildirimleri ve öneriler bu deponun [Issues](https://github.com/raciyuksek
 Bildirim yaparken aşağıdaki bilgilerin paylaşılması sorunun anlaşılmasını kolaylaştırır:
 
 - işletim sistemi ve sürümü,
-- Mukavele sürümü (örneğin `1.3.2 — Windows Beta 4`),
+- Mukavele sürümü (örneğin `1.4.0`),
 - yapılan işlem sırası,
 - beklenen sonuç,
 - gerçekleşen sonuç,
