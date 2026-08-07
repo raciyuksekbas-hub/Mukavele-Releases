@@ -14,12 +14,14 @@ Bu depo, uygulamanın **dağıtım paketlerini** barındırır. Uygulamanın kay
 
 | Platform | Durum | Paket | İndirme |
 |---|---|---|---|
-| macOS 12 (Monterey) ve üzeri — Apple Silicon (arm64) | Kararlı sürüm | `Mukavele-1.4.0-arm64.dmg` | [v1.4.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) |
-| Windows 10 / 11 — x64 | Kararlı sürüm | `Mukavele-1.4.0-windows-x64-setup.exe` (kurulum) veya `-portable.zip` | [v1.4.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) |
+| macOS 12 (Monterey) ve üzeri — Apple Silicon (arm64) | Kararlı sürüm (1.4.0) | `Mukavele-1.4.0-arm64.dmg` | [v1.4.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) |
+| Windows 10 / 11 — x64 | Kararlı sürüm | `Mukavele-1.4.1-windows-x64-setup.exe` (kurulum) veya `-portable.zip` | [v1.4.1](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.1) |
 
 macOS paketi yalnızca **Apple Silicon (arm64)** işlemcili Mac bilgisayarlar için üretilmiştir. Intel işlemcili Mac'ler için ayrı bir paket bulunmamaktadır ve paket "universal" değildir.
 
 Windows paketi **64 bit (x64)** sistemler içindir.
+
+Windows için güncel kararlı sürüm **1.4.1** (Windows'a özgü hotfix), macOS için güncel kararlı sürüm **1.4.0**'dır. 1.4.1'deki düzeltme yalnızca Windows'u ilgilendirdiğinden macOS tarafında yeni bir paket yayımlanmamıştır.
 
 ---
 
@@ -140,7 +142,7 @@ Sonraki çalıştırmalarda uygulama doğrudan açılır.
 
 ### Setup ile kurulum (önerilen)
 
-1. [v1.4.0 release sayfasından](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0) `Mukavele-1.4.0-windows-x64-setup.exe` dosyasını indirin.
+1. [v1.4.1 release sayfasından](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.1) `Mukavele-1.4.1-windows-x64-setup.exe` dosyasını indirin.
 2. Dosyayı çalıştırın.
 3. Windows SmartScreen uyarısı çıkarsa **"Daha fazla bilgi"** seçeneğine basın.
 4. **"Yine de çalıştır"** seçeneğiyle devam edin.
@@ -151,7 +153,7 @@ Kurulum yönetici yetkisi gerektirmez; uygulama yalnızca ilgili kullanıcı hes
 
 ### Portable kullanım (alternatif)
 
-1. `Mukavele-1.4.0-windows-x64-portable.zip` dosyasını indirin.
+1. `Mukavele-1.4.1-windows-x64-portable.zip` dosyasını indirin.
 2. ZIP dosyasını kalıcı bir klasöre çıkarın.
 3. Klasör içindeki `Mukavele.exe` dosyasını çalıştırın.
 4. Uygulamayı ZIP dosyasının içinden doğrudan çalıştırmayın.
