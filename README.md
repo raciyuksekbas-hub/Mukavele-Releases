@@ -39,7 +39,7 @@ Yeni kurulumlar için 2.0.0 sürümü önerilir.
 v2.0.0 paketleri aşağıdaki kaynak sürümünden üretilmiştir:
 
 ```
-Source build commit: c70114acc208960655624415531a2b737d80734c
+Source build commit: 00b1b32ae67ad5a47b81129a22128facfcf2f60d
 ```
 
 İndirdiğiniz dosyanın bozulmadığını doğrulamak için release sayfasındaki
