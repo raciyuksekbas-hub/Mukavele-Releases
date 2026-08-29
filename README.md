@@ -256,3 +256,20 @@ Copyright © 2026 Raci Çetin Yüksekbaş. Tüm hakları saklıdır.
 Mukavele açık kaynaklı bir yazılım değildir. Yazılımın kaynak kodunun veya çalıştırılabilir sürümlerinin kullanımı, çoğaltılması, değiştirilmesi ve yeniden dağıtımı ayrıca belirlenen lisans koşullarına tabidir. Açık bir lisans verilmediği sürece herhangi bir kullanım veya yeniden dağıtım hakkı tanındığı kabul edilmez.
 
 Bu depo yalnızca uygulamanın dağıtım dosyalarını barındırır. Uygulamanın kaynak kodu bu depo üzerinden yayımlanmamaktadır. GitHub'ın release sayfalarında otomatik olarak gösterdiği "Source code (zip/tar.gz)" bağlantıları uygulamanın kaynak kodunu içermez.
+
+---
+
+## Meslektaşlarıma Bir Not
+
+Kıymetli meslektaşlarım,
+
+Ben yazılımcı değilim. Yalnızca yapay zekâ kullanmayı seven; vibe coding yöntemiyle, yani geliştiricilerin tek tek kod satırları yazmak yerine doğal dilde ne yapmak istediklerini yapay zekâya anlatarak yazılım geliştirdiği yeni nesil yaklaşımdan yararlanıp kendimin ve meslektaşlarımın işine yarayacak araçlar üretmeye çalışan bir hukukçuyum.
+
+Bu nedenle MetinBul’un hataları, eksikleri veya geliştirilmesi gereken yönleri olabilir. Uygulamayı kullandıkça karşılaştığınız sorunları, dileklerinizi, önerilerinizi ve eleştirilerinizi benimle paylaşırsanız, MetinBul’u birlikte daha iyi bir hale getirebiliriz.
+
+Uygulamayı sizlere ücretsiz olarak sunuyorum. Bunun karşılığında tek beklentim; beni yetiştiren müteveffa anneannem Cemile Salman’ın aziz ruhu ve hatırası için, kendi inancınız çerçevesinde bir dua etmenizdir.
+
+Sevgiler,
+Raci
+
+---
