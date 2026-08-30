@@ -14,32 +14,34 @@ Bu depo, uygulamanın **dağıtım paketlerini** barındırır. Uygulamanın kay
 
 | Platform | Durum | Paket | İndirme |
 |---|---|---|---|
-| macOS 12 (Monterey) ve üzeri — Apple Silicon (arm64) | Kararlı sürüm | `Mukavele-2.0.0-arm64.dmg` | [v2.0.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0) |
-| Windows 10 / 11 — x64 | Kararlı sürüm | `Mukavele-2.0.0-windows-x64-setup.exe` (kurulum) | [v2.0.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0) |
-| Windows 10 / 11 — x64 | Kararlı sürüm | `Mukavele-2.0.0-windows-x64-portable.zip` (kurulumsuz) | [v2.0.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0) |
+| macOS 12 (Monterey) ve üzeri — Apple Silicon (arm64) | Kararlı sürüm | `Mukavele-2.2.0-arm64.dmg` | [v2.2.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0) |
+| Windows 10 / 11 — x64 | Kararlı sürüm | `Mukavele-2.2.0-windows-x64-setup.exe` (kurulum) | [v2.2.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0) |
+| Windows 10 / 11 — x64 | Kararlı sürüm | `Mukavele-2.2.0-windows-x64-portable.zip` (kurulumsuz) | [v2.2.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0) |
 
 macOS paketi yalnızca **Apple Silicon (arm64)** işlemcili Mac bilgisayarlar için üretilmiştir. Intel işlemcili Mac'ler için ayrı bir paket bulunmamaktadır ve paket "universal" değildir.
 
 Windows paketi **64 bit (x64)** sistemler içindir.
 
-Her iki platform için güncel kararlı sürüm **2.0.0**'dır. macOS ve Windows paketleri aynı kaynaktan üretilir ve aynı özellik setine sahiptir.
+Her iki platform için güncel kararlı sürüm **2.2.0**'dır. macOS ve Windows paketleri aynı kaynaktan üretilir ve aynı özellik setine sahiptir.
 
 ### Önceki sürümler
 
 Eski paketler release sayfalarında erişilebilir durumdadır:
 
+- [v2.1.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.1.0)
+- [v2.0.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0)
 - [v1.5.1](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.5.1)
 - [v1.4.1](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.1)
 - [v1.4.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.4.0)
 
-Yeni kurulumlar için 2.0.0 sürümü önerilir.
+Yeni kurulumlar için 2.2.0 sürümü önerilir.
 
 ### Paket doğrulama
 
-v2.0.0 paketleri aşağıdaki kaynak sürümünden üretilmiştir:
+v2.2.0 paketleri aşağıdaki kaynak sürümünden üretilmiştir:
 
 ```
-Source build commit: 00b1b32ae67ad5a47b81129a22128facfcf2f60d
+Source build commit: bfab704b964233b6b789371d1d20c8c1d9c24496
 ```
 
 İndirdiğiniz dosyanın bozulmadığını doğrulamak için release sayfasındaki
@@ -138,8 +140,8 @@ Kanunen sınırlandırılması veya kaldırılması mümkün olmayan sorumlulukl
 
 ## macOS Kurulumu
 
-1. [v2.0.0 release sayfasını](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0) açın.
-2. **Assets** altındaki `Mukavele-2.0.0-arm64.dmg` dosyasını indirin.
+1. [v2.2.0 release sayfasını](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0) açın.
+2. **Assets** altındaki `Mukavele-2.2.0-arm64.dmg` dosyasını indirin.
 3. DMG dosyasını açın.
 4. Mukavele uygulamasını **Applications (Uygulamalar)** klasörüne sürükleyin.
 5. Uygulamayı Applications klasöründen çalıştırın.
@@ -164,7 +166,7 @@ Sonraki çalıştırmalarda uygulama doğrudan açılır.
 
 ### Setup ile kurulum (önerilen)
 
-1. [v2.0.0 release sayfasından](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0) `Mukavele-2.0.0-windows-x64-setup.exe` dosyasını indirin.
+1. [v2.2.0 release sayfasından](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0) `Mukavele-2.2.0-windows-x64-setup.exe` dosyasını indirin.
 2. Dosyayı çalıştırın.
 3. Windows SmartScreen uyarısı çıkarsa **"Daha fazla bilgi"** seçeneğine basın.
 4. **"Yine de çalıştır"** seçeneğiyle devam edin.
@@ -175,7 +177,7 @@ Kurulum yönetici yetkisi gerektirmez; uygulama yalnızca ilgili kullanıcı hes
 
 ### Portable kullanım (alternatif)
 
-1. `Mukavele-2.0.0-windows-x64-portable.zip` dosyasını indirin.
+1. `Mukavele-2.2.0-windows-x64-portable.zip` dosyasını indirin.
 2. ZIP dosyasını kalıcı bir klasöre çıkarın.
 3. Klasör içindeki `Mukavele.exe` dosyasını çalıştırın.
 4. Uygulamayı ZIP dosyasının içinden doğrudan çalıştırmayın.
