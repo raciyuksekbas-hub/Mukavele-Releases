@@ -10,9 +10,13 @@ Uygulama kullanıcı adına hukukî karar vermez, somut olayın hukukî değerle
 
 ---
 
-## Güncel sürüm: v2.2.0
+## Güncel sürüm: v2.3.0
 
-Mukavele v2.2.0 ile üç belge ailesi desteklenir:
+Mukavele v2.3.0 ile arayüz kapsamlı biçimde yenilendi: ana bölümler **Oluştur**, **Belgeler** ve **Kayıtlar** olarak sadeleştirildi, klavye ile kullanım ve ekran okuyucu semantiği gözden geçirildi, büyük yazı ve yüksek ekran ölçeklerinde oluşan taşma sorunları giderildi.
+
+Sözleşme motoru, belge şablonları ve veri modeli bu sürümde değişmedi; üretilen belgeler önceki sürümle aynıdır.
+
+Uygulama üç belge ailesini destekler:
 
 | Belge | Amaç |
 |---|---|
@@ -30,38 +34,38 @@ Belge üretimi **Word (`.docx`)** ve **UYAP (`.udf`)** çıktılarıyla çalış
 
 | Platform | Paket | İndirme |
 |---|---|---|
-| **Windows 10 / 11 — x64** | Kurulum | [Mukavele-2.2.0-windows-x64-setup.exe](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.2.0/Mukavele-2.2.0-windows-x64-setup.exe) |
-| **Windows 10 / 11 — x64** | Kurulumsuz | [Mukavele-2.2.0-windows-x64-portable.zip](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.2.0/Mukavele-2.2.0-windows-x64-portable.zip) |
-| **macOS 12+ — Apple Silicon (arm64)** | DMG | [Mukavele-2.2.0-arm64.dmg](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.2.0/Mukavele-2.2.0-arm64.dmg) |
+| **Windows 10 / 11 — x64** | Kurulum | [Mukavele-2.3.0-windows-x64-setup.exe](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/Mukavele-2.3.0-windows-x64-setup.exe) |
+| **Windows 10 / 11 — x64** | Kurulumsuz | [Mukavele-2.3.0-windows-x64-portable.zip](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/Mukavele-2.3.0-windows-x64-portable.zip) |
+| **macOS 12+ — Apple Silicon (arm64)** | DMG | [Mukavele-2.3.0-arm64.dmg](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/Mukavele-2.3.0-arm64.dmg) |
 
-**Release sayfası:** [Mukavele v2.2.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0)
+**Release sayfası:** [Mukavele v2.3.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.3.0)
 
 ### Platform notları
 
 - macOS paketi yalnızca **Apple Silicon (arm64)** işlemcili Mac bilgisayarlar içindir.
 - Windows paketi **64 bit (x64)** sistemler içindir.
-- macOS paketi Apple tarafından notarize edilmemiştir.
-- Windows paketi dijital olarak imzalanmamıştır.
+- macOS paketi **Developer ID** ile imzalıdır, Hardened Runtime kullanır ve **Apple tarafından notarize edilmiştir**; bilet pakete iliştirildiği için ek bir adım gerekmez.
+- Windows paketi dijital olarak imzalanmamıştır; SmartScreen uyarısı görülebilir.
 
 ---
 
 ## Paket doğrulama
 
-v2.2.0 dağıtım paketleri şu kaynak sürümünden üretilmiştir:
+v2.3.0 dağıtım paketleri şu kaynak sürümünden üretilmiştir:
 
 ```text
-Source build commit: bfab704b964233b6b789371d1d20c8c1d9c24496
+Source build commit: 67cb6b0cd8191c2d9ad3acd958753a6df6d46eca
 ```
 
 SHA-256 değerleri:
 
 ```text
-89b9bf95fe55fe7c52aa00f193041d7988c9b2be8e8b8b2f5b01c4da2b2cfd5d  Mukavele-2.2.0-arm64.dmg
-0f263d3b6b0610d9051937a6f523bd76671e315189dfe86c4d24b03a5e1286b7  Mukavele-2.2.0-windows-x64-portable.zip
-790dae86cb1fe53e279c0d3b0cbaf5928ecf399a1aa72bff0b13618fe6956688  Mukavele-2.2.0-windows-x64-setup.exe
+02d8c1aaa6b3ef525c1a1977d4e458b2a64b169018f20dcf3ae8a2a1ae8a2045  Mukavele-2.3.0-arm64.dmg
+a62ddb48bcb53af3fe17c2361ff7ccd71b273ae5669b0c0252b855135ca16482  Mukavele-2.3.0-windows-x64-setup.exe
+49ab9bf537924985c10e5a8100c5265ee920ece5e92adc363ff42f16bcae475d  Mukavele-2.3.0-windows-x64-portable.zip
 ```
 
-Aynı değerler release içindeki [`SHA256SUMS.txt`](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.2.0/SHA256SUMS.txt) dosyasında da yer alır.
+Aynı değerler release içindeki [`SHA256SUMS.txt`](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/SHA256SUMS.txt) dosyasında da yer alır.
 
 ---
 
@@ -107,6 +111,7 @@ Belgenin somut olaya, taraf iradelerine, güncel mevzuata ve uygulanabilir mesle
 
 ## Önceki sürümler
 
+- [v2.2.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0)
 - [v2.1.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.1.0)
 - [v2.0.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0)
 - [v1.5.1](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v1.5.1)
