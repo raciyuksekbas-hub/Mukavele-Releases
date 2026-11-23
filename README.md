@@ -10,11 +10,11 @@ Uygulama kullanıcı adına hukukî karar vermez, somut olayın hukukî değerle
 
 ---
 
-## Güncel sürüm: v2.3.0
+## Güncel sürüm: v3.0.0
 
-Mukavele v2.3.0 ile arayüz kapsamlı biçimde yenilendi: ana bölümler **Oluştur**, **Belgeler** ve **Kayıtlar** olarak sadeleştirildi, klavye ile kullanım ve ekran okuyucu semantiği gözden geçirildi, büyük yazı ve yüksek ekran ölçeklerinde oluşan taşma sorunları giderildi.
+Mukavele v3.0.0 ile Avukatlık Ücret Sözleşmesi yalnız dava ve icra takibi için değil, **tek seferlik hukuki hizmetler** (ihtarname, danışma, mütalaa, bağımsız dilekçe, sözleşme hazırlama ve inceleme, görüşmeye katılım) ve **sürekli hukuki danışmanlık** için de hazırlanabiliyor. Ceza işlerinde soruşturma ve infaz evreleri ayrı aşamalar olarak seçiliyor; müvekkilin sıfatı (şüpheli, sanık, hükümlü, mağdur, suçtan zarar gören, katılan) ayrıca belirleniyor. Arayüz kenar çubuklu yeni bir düzene, açık ve koyu temaya kavuştu; **Ücret Tarifeleri** ekranında AAÜT'ler ve baroların tavsiye niteliğindeki tarifeleri yer alıyor.
 
-Sözleşme motoru, belge şablonları ve veri modeli bu sürümde değişmedi; üretilen belgeler önceki sürümle aynıdır.
+Bu sürüm veritabanını yükseltir: yükseltmeden önce veri klasörünüzün bir kopyasını alın (uygulama da yükseltmeden önce kendiliğinden bir yedek alır). Ayrıntılar için [v3.0.0 sürüm notlarına](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v3.0.0) bakın.
 
 Uygulama üç belge ailesini destekler:
 
@@ -34,11 +34,11 @@ Belge üretimi **Word (`.docx`)** ve **UYAP (`.udf`)** çıktılarıyla çalış
 
 | Platform | Paket | İndirme |
 |---|---|---|
-| **Windows 10 / 11 — x64** | Kurulum | [Mukavele-2.3.0-windows-x64-setup.exe](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/Mukavele-2.3.0-windows-x64-setup.exe) |
-| **Windows 10 / 11 — x64** | Kurulumsuz | [Mukavele-2.3.0-windows-x64-portable.zip](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/Mukavele-2.3.0-windows-x64-portable.zip) |
-| **macOS 12+ — Apple Silicon (arm64)** | DMG | [Mukavele-2.3.0-arm64.dmg](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/Mukavele-2.3.0-arm64.dmg) |
+| **Windows 10 / 11 — x64** | Kurulum | [Mukavele-3.0.0-windows-x64-setup.exe](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v3.0.0/Mukavele-3.0.0-windows-x64-setup.exe) |
+| **Windows 10 / 11 — x64** | Kurulumsuz | [Mukavele-3.0.0-windows-x64-portable.zip](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v3.0.0/Mukavele-3.0.0-windows-x64-portable.zip) |
+| **macOS 12+ — Apple Silicon (arm64)** | DMG | [Mukavele-3.0.0-arm64.dmg](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v3.0.0/Mukavele-3.0.0-arm64.dmg) |
 
-**Release sayfası:** [Mukavele v2.3.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.3.0)
+**Release sayfası:** [Mukavele v3.0.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v3.0.0)
 
 ### Platform notları
 
@@ -51,28 +51,28 @@ Belge üretimi **Word (`.docx`)** ve **UYAP (`.udf`)** çıktılarıyla çalış
 
 ## Paket doğrulama
 
-v2.3.0 dağıtım paketleri şu kaynak sürümünden üretilmiştir:
+v3.0.0 dağıtım paketleri şu kaynak sürümünden üretilmiştir:
 
 ```text
-Source build commit: 67cb6b0cd8191c2d9ad3acd958753a6df6d46eca
+Source build commit: 4eeae1ab408857084927148466448c0f4f22bf29
 ```
 
 SHA-256 değerleri:
 
 ```text
-02d8c1aaa6b3ef525c1a1977d4e458b2a64b169018f20dcf3ae8a2a1ae8a2045  Mukavele-2.3.0-arm64.dmg
-a62ddb48bcb53af3fe17c2361ff7ccd71b273ae5669b0c0252b855135ca16482  Mukavele-2.3.0-windows-x64-setup.exe
-49ab9bf537924985c10e5a8100c5265ee920ece5e92adc363ff42f16bcae475d  Mukavele-2.3.0-windows-x64-portable.zip
+f7660094804b99716215359a63ee53b99598414755483eb892535743fb088602  Mukavele-3.0.0-arm64.dmg
+fb538820d07cf6aa95e62083689b114193370df6b377ef4f305d3c4af4ce35ec  Mukavele-3.0.0-windows-x64-setup.exe
+14995ad86bb47828fd9b8b13fdce318bb3ff0dfebfbd4537911be9fc3d07bf2c  Mukavele-3.0.0-windows-x64-portable.zip
 ```
 
-Aynı değerler release içindeki [`SHA256SUMS.txt`](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v2.3.0/SHA256SUMS.txt) dosyasında da yer alır.
+Aynı değerler release içindeki [`SHA256SUMS.txt`](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v3.0.0/SHA256SUMS.txt) dosyasında da yer alır.
 
 ---
 
 ## Nasıl çalışır?
 
 1. Büro, taraf ve gerekiyorsa dosya bilgileri kaydedilir.
-2. **Belge Oluştur** ekranından belge türü seçilir.
+2. Anasayfa'daki **Belge oluştur** bölümünden belge türü seçilir; sözleşmede hizmet türü (dava ve icra takibi, tek seferlik hizmet, sürekli danışmanlık) sihirbazın ilk adımlarında belirlenir.
 3. Seçilen belgeye özgü bilgiler kullanıcı tarafından girilir.
 4. Mukavele, bu bilgileri önceden tanımlanmış belge yapısıyla birleştirir.
 5. Belge çıktıları kullanıcının bilgisayarında oluşturulur.
@@ -111,6 +111,7 @@ Belgenin somut olaya, taraf iradelerine, güncel mevzuata ve uygulanabilir mesle
 
 ## Önceki sürümler
 
+- [v2.3.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.3.0)
 - [v2.2.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.2.0)
 - [v2.1.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.1.0)
 - [v2.0.0](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/tag/v2.0.0)
