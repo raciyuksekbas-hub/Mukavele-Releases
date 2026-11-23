@@ -54,15 +54,15 @@ Belge üretimi **Word (`.docx`)** ve **UYAP (`.udf`)** çıktılarıyla çalış
 v3.0.0 dağıtım paketleri şu kaynak sürümünden üretilmiştir:
 
 ```text
-Source build commit: 4eeae1ab408857084927148466448c0f4f22bf29
+Source build commit: a5c699167c438b9164d03c36f6680fc9343a6a96
 ```
 
 SHA-256 değerleri:
 
 ```text
-f7660094804b99716215359a63ee53b99598414755483eb892535743fb088602  Mukavele-3.0.0-arm64.dmg
-fb538820d07cf6aa95e62083689b114193370df6b377ef4f305d3c4af4ce35ec  Mukavele-3.0.0-windows-x64-setup.exe
-14995ad86bb47828fd9b8b13fdce318bb3ff0dfebfbd4537911be9fc3d07bf2c  Mukavele-3.0.0-windows-x64-portable.zip
+a786229ee18924d313a8068e0f41c83c19a638d488b9a7646d6ad6ec32aff6cc  Mukavele-3.0.0-arm64.dmg
+19b3d6b14906cbd6ade2e8b42269e7e8e3d87021c50fada43668b01a4f354c1a  Mukavele-3.0.0-windows-x64-setup.exe
+9555138377b26cc46d4de940df52e3a7e6dd737bd72436e51f70c039690052d8  Mukavele-3.0.0-windows-x64-portable.zip
 ```
 
 Aynı değerler release içindeki [`SHA256SUMS.txt`](https://github.com/raciyuksekbas-hub/Mukavele-Releases/releases/download/v3.0.0/SHA256SUMS.txt) dosyasında da yer alır.
